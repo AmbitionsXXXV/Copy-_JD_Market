@@ -1,0 +1,88 @@
+@import './reset';
+@import './colors';
+@import './dimens';
+
+.z-index-2 {
+    z-index: 2;
+}
+
+.z-index-4 {
+    z-index: 4;
+}
+
+.z-index-6 {
+    z-index: 6;
+}
+
+.z-index-8 {
+    z-index: 8;
+}
+
+.z-index-max {
+    z-index: 9999999;
+}
+
+.caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 8px solid $mainColor;
+    border-right: 6px solid transparent;
+    border-left: 6px solid transparent;
+}
+
+.cover {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.single-row-text {
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+.input-container {
+    height: px2rem(48);
+    margin: $marginSize;
+    overflow: hidden;
+    margin-top: $marginSize;
+    background: white;
+    border-bottom: px2rem(1) solid $lineColor;
+    box-sizing: border-box;
+
+    input {
+        width: 100%;
+        height: 100%;
+        font-size: $titleSize;
+    }
+}
+
+.page-commit {
+    width: 90%;
+    height: px2rem(46);
+    line-height: px2rem(46);
+    margin-left: 5%;
+    display: block;
+    background-color: $mainColor;
+    border-radius: px2rem(50);
+    font-size: $titleSize;
+    color: #fff;
+    text-align: center;
+    -webkit-border-radius: px2rem(50);
+    -moz-border-radius: px2rem(50);
+    -ms-border-radius: px2rem(50);
+    -o-border-radius: px2rem(50);
+}
+
+
+.iphonex-top {
+    padding-top: 44px !important;
+}
+
+.iphonex-bottom {
+    padding-bottom: 34px;
+}
